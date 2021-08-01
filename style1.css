@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-image: url(paper.png);
+  }
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.form-btn{
+    display: inline-block;
+    background: #ff523b;
+    color: rgb(255, 255, 255);
+    padding: 8px 30px;
+    margin: 30px 0 ;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.form-btn:hover{
+    background: #563434;
+}

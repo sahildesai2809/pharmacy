@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale =1.0">
+    <title> Pharmacy </title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src= "main.js" async></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body>
+
+
+    
+        <div class="container">
+            <div class="navbar">
+                <div>
+                    <img src="images/logo.jpg" alt="logo" width="125px">
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <!-- <li><a href="">Cart</a></li> -->
+                        <!-- <li><a href="">Address</a></li> -->
+                        <li><a href="http://localhost/user/registration.php">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html" ><img src="images/cart.png" alt="cart" width="30px" height="30px"></a></a><span class="cartnum">0</span>
+                <img src="images/menu.png" alt="cart" class="menu-icon" onclick="menutoggle()" >
+            </div>
+       
+
+        </div>
+
+
+
+
+    <div class="small-container">
+        <h2>All products</h2>
+        
+        <div class="row row-2">
+            
+            
+            <a href="product.html" class="product-cat">Ayurveda</a>
+            <a href="product2.html" class="product-cat">Baby & Mom care</a>
+            <a href="product3.html" class="product-cat">Health supplements</a>
+            <a href="product4.html" class="product-cat">Medical appliances</a>
+        </div>
+
+        <div class="page-btn">
+            <a href="product.html" ><span class="curr-page">1</span></a>
+            <a href="product2.html"><span>2</span></a>
+            <a href="product3.html"><span>3</span></a>
+            <a href="product4.html"><span>4</span></a>
+            <a href="product2.html"><span> &#8594;</span></a>
+        </div>
+            
+        <div class='row'>
+            <div class="col-4 product cart">
+                <img src="images/Ashva.jpg" alt="Ashwagandha">
+                <h4>Frequently referred to as “Indian ginseng” because of its rejuvenating properties.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹95</p>
+                <a href="#" class="add-cart" >Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/bos.png" alt="Boswellia">
+                <h4>Boswellia, or Indian frankincense, is a resin herbal extract from the boswellia tree, which natural medicine practices have used for centuries.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹836</p>
+                <a href="#" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/Brahmi.png" alt="Brahmi">
+                <h4>Brahmi is a small succulent herb with numerous branches, rooting at the nodes, found at elevations from sea level to altitudes of 4400 feet</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹138</p>
+                <a href="#" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/Cumin.png" alt="Cumin">
+                <h4>Cumin is an herb,it is used  for digestion problems including diarrhea, colic, bowel spasms, and gas.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹209</p>
+                <a href="#" class="add-cart">Add to cart</a>
+            </div>
+        </div>
+
+        <div class='row'>
+            <div class="col-4 product cart">
+                <img src="images/Kesh.png" alt="Kesh King Hair Oil">
+                <h4>Kesh King Ayurvedic Hair Oil is a proprietary medicine with no side effects that contains the goodness of 21 Rare Ayurvedic Herbs.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹330</p>
+                <a href="#" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/Medimix.png" alt="Medimix Classic Ayurvedic 18 Herb Soap">
+                <h4>Classic 18 Herbs Soap. Medimix Ayurvedic Soap Contains an exclusive blend of the purest and premium grade vegetable glycerine</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹26.04</p>
+                <a href="#" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/amla.png" alt="Kapiva Ayurveda Amla Juice">
+                <h4>Kapiva Amla Juice is a powerhouse of vitamin C. Made only from ripe, wild amlas, and cold-pressed to retain nutrients, this is a premium quality product!.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹198</p>
+                <a href="#" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/boro.png" alt="BOROLINE CREAM 20GM">
+                <h4>Smoothen Cracked Lips. Cure Cuts & WoundsCure Cuts & Wounds. Soften Elbows & Abraded SkinSoften Elbows & Abraded Skin.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹38</p>
+                <a href="#" class="add-cart">Add to cart</a>
+            </div>
+        </div>
+
+        <div class='row'>
+            <div class="col-4 product cart">
+                <img src="images/dabur.png" alt="Dabur Chyawanprash Awaleha 1 Kg">
+                <h4>Dabur Chyawanprash Awaleha is an ayurvedic formulation which has a combination of more than 41 ayurvedic herbs.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹285</p>
+                <a href="#" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/septilin.png" alt="Himalaya Septilin 60 Tablets">
+                <h4>It is used to boost your immunity and help fight against infections.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹135</p>
+                <a href="#" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/cystone.png" alt="Himalaya Cystone 60 Tablets">
+                <h4>Cystone tablet helps expel kidney stones and prevents recurrent kidney stone formation by promoting normal urine flow.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹125</p>
+                <a href="#" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/syrup.png" alt="Himalaya Cystone Syrup - 200 ml">
+                <h4>Cystone syrup helps expel kidney stones and prevents recurrent kidney stone formation by promoting normal urine flow.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹150</p>
+                <a href="#" class="add-cart">Add to cart</a>
+            </div>
+        </div>
+        <div class="page-btn">
+            <a href="product.html"><span class="curr-page">1</span></a>
+            <a href="product2.html"><span>2</span></a>
+            <a href="product3.html"><span>3</span></a>
+            <a href="product4.html"><span>4</span></a>
+            <a href="product2.html"><span> &#8594;</span></a>
+        </div>
+    </div>
+
+
+
+    <!-- footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download  App for android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+
+                </div>
+                <div class="footer-col-2">
+
+                    <h3>Creators</h3>
+                    <img src="images/sheldon.png" >
+                <img src="images/sahil.jpeg" >
+                <img src="images/jagtap.png" >
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Usefull links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog post</li>
+                            <li>Return policy</li>
+                            <li>Join affiliate</li>
+                        </ul>
+                    
+                
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>For regular updates ,<br> subscribe to our newsletter
+                    </h3>
+                    <input type="email" placeholder="Enter your email...">
+                    <button type="submit" class="btn" >Submit</button>
+                
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 - Group 9</p>
+        </div>
+    </div>
+
+
+    <!-- js for toggle menu  -->
+
+    <script>
+
+        var menuitems = document.getElementById("menuitems");
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(menuitems.style.maxHeight == "0px"){
+                menuitems.style.maxHeight = "200px";
+            }
+            else{
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+</body>
+</html>

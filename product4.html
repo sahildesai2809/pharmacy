@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale =1.0">
+    <title> Pharmacy </title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+
+    
+        <div class="container">
+            <div class="navbar">
+                <div>
+                    <img src="images/logo.jpg" alt="logo" width="125px">
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <!-- <li><a href="">Cart</a></li> -->
+                        <!-- <li><a href="">Address</a></li> -->
+                        <li><a href="index.php">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" alt="cart" width="30px" height="30px"></a></a><span class="cartnum">0</span>
+                <img src="images/menu.png" alt="cart" class="menu-icon" onclick="menutoggle()" >
+            </div>
+       
+
+        </div>
+
+
+
+
+    <div class="small-container">
+        <h2>All products</h2>
+        <div class="row row-2">
+            
+            <a href="product.html" class="product-cat">Ayurveda</a>
+            <a href="product2.html" class="product-cat">Baby & Mom care</a>
+            <a href="product3.html" class="product-cat">Health supplements</a>
+            <a href="product4.html" class="product-cat">Medical appliances</a>
+        </div>>
+
+        <div class="page-btn">
+            <a href="product3.html"><span> 	&#8592; </span></a>
+            <a href="product.html"><span>1</span></a>
+            <a href="product2.html"><span>2</span></a>
+            <a href="product3.html"><span>3</span></a>
+            <a href="product4.html"><span class="curr-page">4</span></a>
+            
+        </div>
+      
+        <div class='row'>
+            <div class="col-4 product cart">
+                <img src="images/dettol.png" alt="Dettol Antiseptic Liquid 550 ml">
+                <h4>A house is not a home without a bottle of iconic Dettol Antiseptic Liquid.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹175</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/prega.png" alt="Prega News Pregnancy Test Kit 1 Unit">
+                <h4>Prega News is a one-step urine HCG pregnancy test to detect the early stage of pregnancy.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹53</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/bp.png" alt="Omron HEM-8712 Automatic BP Monitor 1 Unit">
+                <h4>Omron HEM-8712 is a compact and easy to use blood pressure monitor which measures Systolic and Diastolic pressure accurately and displays the pulse rate.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹2,552</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/jj.png" alt="Johnson & Johnson Band Aid Washproof 100 Pcs">
+                <h4>Band-Aid Washproof by Johnson & Johnson brand</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹240</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+        </div>
+
+        <div class='row'>
+            <div class="col-4 product cart">
+                <img src="images/accsure.png" alt="Accusure Digital Thermometer 1 Unit">
+                <h4>Digital display of temperature. 100% mercury-free.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹975</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/tulip.png" alt="Tulip Cotton Ear 100 Buds">
+                <h4>Q-tips are sticks having soft cotton at both ends and is used for various cleaning purposes.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹30</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/pulse.png" alt="Fingertip Pulse Oximeter 1 Unit">
+                <h4>Finger Tip Pulse Oximeter measuring SpO2 and Pulse Rate suited for Adults.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹1,110</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/hrk.png" alt="HRK Infrared Thermometer">
+                <h4>HRK Straightforward and Safe Measuring Measure high warmth temperatures or difficult to arrive at surfaces from a protected separation.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹1,200</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+        </div>
+
+        <div class='row'>
+            <div class="col-4 product cart">
+                <img src="images/lamp.png" alt="Beurer Infrared Lamp IL 50 (White) 1 Unit">
+                <h4>Beurer Infrared Lamp IL 50 is only intended for radiating the human body.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹4,420</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/nebu.png" alt="Omron NE-C25S Nebulizer 1 Unit">
+                <h4>Omron NE-C25S Compressor Nebulizer is designed for efficient management of asthma, COPD, bronchitis and other respiratory diseases.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹2,354</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/burnol.png" alt="Dr. Morepen Burnol Cream 10 gm">
+                <h4>Aminacrine hydrochloride Aminacrine hydrochloride medicine is indicated for the treatment of viral infections.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹53</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/3m.png" alt="3M Avagard Handrub Pump pack 500 ml">
+                <h4>3M Avagard Handrub can be used to keep hands clean and germ-free</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹550</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+        </div>
+        <div class="page-btn">
+            <a href="product3.html"><span> 	&#8592; </span></a>
+            <a href="product.html"><span>1</span></a>
+            <a href="product2.html"><span>2</span></a>
+            <a href="product3.html"><span>3</span></a>
+            <a href="product4.html"><span class="curr-page">4</span></a>
+            
+        </div>
+    </div>
+
+
+
+    <!-- footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download  App for android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+
+                </div>
+                <div class="footer-col-2">
+
+                    <h3>Creators</h3>
+                    <img src="images/sheldon.png" >
+                <img src="images/sahil.jpeg" >
+                <img src="images/jagtap.png" >
+                
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Usefull links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog post</li>
+                            <li>Return policy</li>
+                            <li>Join affiliate</li>
+                        </ul>
+                    
+                
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>For regular updates ,<br> subscribe to our newsletter
+                    </h3>
+                    <input type="email" placeholder="Enter your email...">
+                    <button type="submit" class="btn" >Submit</button>
+                
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 - Group 9</p>
+        </div>
+    </div>
+
+
+    <!-- js for toggle menu  -->
+
+    <script>
+
+        var menuitems = document.getElementById("menuitems");
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(menuitems.style.maxHeight == "0px"){
+                menuitems.style.maxHeight = "200px";
+            }
+            else{
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale =1.0">
+    <title> Pharmacy </title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+
+    
+        <div class="container">
+            <div class="navbar">
+                <div>
+                    <img src="images/logo.jpg" alt="logo" width="125px">
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <!-- <li><a href="">Cart</a></li> -->
+                        <!-- <li><a href="">Address</a></li> -->
+                        <li><a href="index.php">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" alt="cart" width="30px" height="30px"></a></a><span class="cartnum">0</span>
+                <img src="images/menu.png" alt="cart" class="menu-icon" onclick="menutoggle()" >
+            </div>
+       
+
+        </div>
+
+
+
+
+    <div class="small-container">
+        <h2>All products</h2>
+        <div class="row row-2">
+            
+            <a href="product.html" class="product-cat">Ayurveda</a>
+            <a href="product2.html" class="product-cat">Baby & Mom care</a>
+            <a href="product3.html" class="product-cat">Health supplements</a>
+            <a href="product4.html" class="product-cat">Medical appliances</a>
+        </div>
+
+        <div class="page-btn">
+            <a href="product2.html"><span> 	&#8592; </span></a>
+            <a href="product.html"><span>1</span></a>
+            <a href="product2.html"><span>2</span></a>
+            <a href="product3.html"><span class="curr-page">3</span></a>
+            <a href="product4.html"><span>4</span></a>
+            <a href="product4.html"><span> &#8594;</span></a>
+        </div>
+      
+        <div class='row'>
+            <div class="col-4 product cart">
+                <img src="images/sugar.png" alt="Sugar Free Gold Pellets 500 Pcs">
+                <h4>Sugar free Gold Pellets is a low-calorie sugar substitute.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹232.50</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/ensure.png" alt="Ensure Diabetes Care Vanilla Jar 400 gm">
+                <h4>Ensure Diabetes Care is a complete and balanced health drink to ensure healthy and active life.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹680</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+ 
+            <div class="col-4 product cart">
+                <img src="images/gold.png" alt="Sugar Free Gold Powder 100 gm">
+                <h4>Sugar free gold tablet is a low - calorie sugar substitute.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹130</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/diabecon.png" alt="Himalaya Diabecon DS 60 Tablets">
+                <h4>Himalaya Diabecon is a proprietary Ayurvedic medicine that helps to fight against diabetes.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹110</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+        </div>
+
+        <div class='row'>
+            <div class="col-4 product cart">
+                <img src="images/honey.png" alt="Dabur Honey 1 Kg">
+                <h4>Dabur Honey Liquid is one of the best product to kick-start your day.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹355</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/bgr.png" alt="Aimil BGR-34 Bottle 100 Tablets">
+                <h4>BGR-34 is a novel natural DPP-4 inhibitor along with cardio-protective action.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹597</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/accu.png" alt="Accu-Chek Active Blood Glucose Monitor with 10 Test Strips 1 Unit">
+                <h4>The Accu-Chek blood glucose meter is an easy to use system that comprises powerful features</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹1,359</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/chek.png" alt="Accu-Chek Active Test Strips 50 Units">
+                <h4>Accu-Chek Active strip is a hassle-free easy to use product.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹750</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+        </div>
+
+        <div class='row'>
+            <div class="col-4 product cart">
+                <img src="images/BGR1.png" alt="Aimil BGR-34 Bottle 100 Tablets">
+                <h4>BGR-34 is a novel natural DPP-4 inhibitor along with cardio-protective action.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₹597</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/tea.png" alt="Organic India Tulsi Green Tea Classic Tea Bags 25 Bags">
+                <h4>Make your teatime pure pleasure with a sip of Organic India Tulsi Green Tea.</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹140</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/madhu.png" alt="Dabur Madhu Rakshak 250 gm">
+                <h4>product-desc</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹157</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+
+            <div class="col-4 product cart">
+                <img src="images/free.png" alt="Sugar Free Natura Pellets 300 Tablets">
+                <h4>product-desc</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹150</p>
+                <a href="" class="add-cart">Add to cart</a>
+            </div>
+        </div>
+        <div class="page-btn">
+            <a href="product2.html"><span> 	&#8592; </span></a>
+            <a href="product.html"><span>1</span></a>
+            <a href="product2.html"><span>2</span></a>
+            <a href="product3.html"><span class="curr-page">3</span></a>
+            <a href="product4.html"><span>4</span></a>
+            <a href="product4.html"><span> &#8594;</span></a>
+        </div>
+    </div>
+
+
+
+    <!-- footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download  App for android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+
+                </div>
+                <div class="footer-col-2">
+
+                    <h3>Creators</h3>
+                    <img src="images/sheldon.png" >
+                <img src="images/sahil.jpeg" >
+                <img src="images/jagtap.png" >
+                
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Usefull links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog post</li>
+                            <li>Return policy</li>
+                            <li>Join affiliate</li>
+                        </ul>
+                    
+                
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>For regular updates ,<br> subscribe to our newsletter
+                    </h3>
+                    <input type="email" placeholder="Enter your email...">
+                    <button type="submit" class="btn" >Submit</button>
+                
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 - Group 9</p>
+        </div>
+    </div>
+
+
+    <!-- js for toggle menu  -->
+
+    <script>
+
+        var menuitems = document.getElementById("menuitems");
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(menuitems.style.maxHeight == "0px"){
+                menuitems.style.maxHeight = "200px";
+            }
+            else{
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,387 @@
+<?php include 'registration.php';?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale =1.0">
+    <title> Pharmacy </title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="parallax.js-1.5.0/parallax.min.js"></script>
+</head>
+<body>
+
+
+<div class="header ">
+    <div class="container">
+        <div class="navbar">
+            <div>
+                <a href="index.html"><img src="images/logo.jpg" alt="logo" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <!-- <li><a href="">Cart</a></li> -->
+                    <!-- <li><a href="">Address</a></li> -->
+                    <li><a href="index.php">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" alt="cart" width="30px" height="30px"></a><span class="cartnum">0</span>
+            <img src="images/menu.png" alt="cart" class="menu-icon" onclick="menutoggle()" >
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>We believe in keeping <br> customers healthy <br> and offer 100 % genuine <br> products!</h1>
+                <p>Bringing the medicine at your door.Your betterment is our concern</p>
+                <a href="product.html" class="btn">Explore now &#8594;</a>
+
+            </div>
+            <div class="col-2">
+                <div id="slider">
+                    <figure>
+                        <img src="images/doc.jpg" alt="desk">
+                        <img src="images/tab.png" alt="desk2">
+                        <img src="images/doc2.jpg" alt="desk">
+                        <img src="images/tab2.jpg" alt="desk3">
+                        <img src="images/doc.jpg" alt="desk">
+                    </figure>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- featured categories -->
+
+<div class='categories'>
+    <div class="small-container">
+        <h2 class="title">Featured categories</h2>
+        <div class="row">
+            
+            <div class="col-3">
+                <a href="product.html"><img src="images/ayur.jpg" ></a>
+                Ayurveda
+
+            </div>
+            <div class="col-3">
+                <a href="product3.html"><img src="images/nutrition.jpg" height="411px" alt=""></a>
+                Nutrition & health supplements
+            </div>
+            <div class="col-3">
+                <a href="product4.html"><img src="images/applicances.jpg" height="411px" alt=""></a>
+                Medical applicances 
+        </div>
+    </div>
+</div>
+
+<div class="parallax" data-parallax="scroll" data-z-index="-100" data-image-src="images/para.jpg">
+
+    <p class="info"> PROMOTION BANNER</p>
+
+   
+</div>
+
+<!-- featured products -->
+
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    
+    <div class='row'>
+        <div class="col-4">
+            <img src="images/sugar.png" alt="Sugar Free Gold Pellets 500 Pcs">
+            <h4>Sugar free Gold Pellets is a low-calorie sugar substitute.</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-half-o" ></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>₹232.50</p>
+        </div>
+
+        <div class="col-4">
+            <img src="images/ensure.png" alt="Ensure Diabetes Care Vanilla Jar 400 gm">
+            <h4>Ensure Diabetes Care is a complete and balanced health drink to ensure healthy and active life.</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>₹680</p>
+        </div>
+
+        <div class="col-4">
+            <img src="images/gold.png" alt="Sugar Free Gold Powder 100 gm">
+            <h4>Sugar free gold tablet is a low - calorie sugar substitute.</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-half-o" ></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>₹130</p>
+        </div>
+
+        <div class="col-4">
+            <img src="images/diabecon.png" alt="Himalaya Diabecon DS 60 Tablets">
+            <h4>Himalaya Diabecon is a proprietary Ayurvedic medicine that helps to fight against diabetes.</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>₹110</p>
+        </div>
+    </div>
+    </div>
+
+    <!-- latest product -->
+
+    <div class="small-container">
+    <h2 class="title">Latest Products</h2>
+
+    <div class='row'>
+        <div class="col-4">
+            <img src="images/lamp.png" alt="Beurer Infrared Lamp IL 50 (White) 1 Unit">
+            <h4>Beurer Infrared Lamp IL 50 is only intended for radiating the human body.</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>₹4,420</p>
+        </div>
+
+        <div class="col-4">
+            <img src="images/nebu.png" alt="Omron NE-C25S Nebulizer 1 Unit">
+            <h4>Omron NE-C25S Compressor Nebulizer is designed for efficient management of asthma, COPD, bronchitis and other respiratory diseases.</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-half-o" ></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>₹2,354</p>
+        </div>
+
+        <div class="col-4">
+            <img src="images/burnol.png" alt="Dr. Morepen Burnol Cream 10 gm">
+            <h4>Aminacrine hydrochloride Aminacrine hydrochloride medicine is indicated for the treatment of viral infections.</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>₹53</p>
+        </div>
+
+        <div class="col-4">
+            <img src="images/3m.png" alt="3M Avagard Handrub Pump pack 500 ml">
+            <h4>3M Avagard Handrub can be used to keep hands clean and germ-free</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-half-o" ></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>₹550</p>
+        </div>
+    </div>
+   
+</div>
+</div>
+</div>
+
+<div class="parallax" data-parallax="scroll"  data-image-src="images/prra.jpg"><p class="info"> PROMOTION BANNER</p></div>
+<!-- offer -->
+
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/oxxi.png" alt="" class="offer-img" >
+            </div>
+
+        <div class="col-2">
+            <p>Oximeter With Audio Visual Alarm</p>
+            <h1>Dr Trust (Usa) Signature Series</h1>
+            <small>Determines the SpO2 (blood oxygen saturation levels) and pulse rate. Contains a low battery indicator.
+                Comes with an automatic power-off function
+            </small><br>
+            <a href="https://drtrust.in/collections/dr-trust-pulse-oximeters?gclid=Cj0KCQiAh4j-BRCsARIsAGeV12BR3_GYWSjVakQifx5LbjGhR4DUYPOhhDIoL_MJJrpLhMHZXl-CNCUaAjyREALw_wcB&gclid=Cj0KCQiAh4j-BRCsARIsAGeV12BR3_GYWSjVakQifx5LbjGhR4DUYPOhhDIoL_MJJrpLhMHZXl-CNCUaAjyREALw_wcB" target="blank" class="btn">Buy now &#8594;</a>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!-- testimonial  -->
+
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left" ></i>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Itaque quia minima earum necessitatibus a magni dolores, 
+                    maiores minus qui nihil quam temporibus natus, iusto mollitia aliquam quae libero, 
+                    laboriosam praesentium!</p>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half-o"></i>
+        
+                    </div>
+                    <img src="images\user-1.png" alt="">
+                    <h3>Sean Parker</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left" ></i>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Itaque quia minima earum necessitatibus a magni dolores, 
+                    maiores minus qui nihil quam temporibus natus, iusto mollitia aliquam quae libero, 
+                    laboriosam praesentium!</p>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half-o"></i>
+        
+                    </div>
+                    <img src="images\user-2.png" alt="">
+                    <h3>Mike smith</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left" ></i>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Itaque quia minima earum necessitatibus a magni dolores, 
+                    maiores minus qui nihil quam temporibus natus, iusto mollitia aliquam quae libero, 
+                    laboriosam praesentium!</p>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o"></i>
+        
+                    </div>
+                    <img src="images\user-3.png" alt="">
+                    <h3>Mabel joe</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/logo-godrej.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-coca-cola.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-oppo.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-paypal.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-philips.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- footer -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our App</h3>
+                <p>Download  App for android and ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png" alt="">
+                    <img src="images/app-store.png" alt="">
+                </div>
+
+            </div>
+            <div class="footer-col-2">
+
+                <h3>Creators</h3>
+                <img src="images/sheldon.png" >
+                <img src="images/sahil.jpeg" >
+                <img src="images/jagtap.png" >
+            
+            </div>
+
+            <div class="footer-col-3">
+                <h3>Usefull links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog post</li>
+                        <li>Return policy</li>
+                        <li>Join affiliate</li>
+                    </ul>
+                
+            
+            </div>
+
+            <div class="footer-col-4">
+                <h3>For regular updates ,<br> subscribe to our newsletter
+                </h3>
+                <input type="email" placeholder="Enter your email...">
+                <button type="submit" class="btn" >Submit</button>
+            
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2020 - Group 9</p>
+    </div>
+</div>
+
+
+<!-- js for toggle menu  -->
+
+<script>
+
+    var menuitems = document.getElementById("menuitems");
+    menuitems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(menuitems.style.maxHeight == "0px"){
+            menuitems.style.maxHeight = "200px";
+        }
+        else{
+            menuitems.style.maxHeight = "0px";
+        }
+    }
+
+</script>
+<script src="main.js"></script>
+
+</body>
+</html>
